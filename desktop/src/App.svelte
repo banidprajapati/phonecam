@@ -156,7 +156,7 @@
 </div>
 
 {#if settingsOpen}
-  <SettingsDialog onclose={() => (settingsOpen = false)} />
+  <SettingsDialog open={settingsOpen} onclose={() => (settingsOpen = false)} />
 {/if}
 
 <style>
